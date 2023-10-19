@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
-from tkinter.messagebox import showinfo
+from tkinter.messagebox import showinfo , showerror
 
 def Arreglar_MC(
         Archivo: str , 
@@ -117,11 +117,14 @@ def Arreglar_Comprobantes():
         Directorio = os.path.dirname(Archivo_Salida)
         os.makedirs(Directorio , exist_ok=True)
 
-        # Arreglar el archivo
-        if Tipo == 'MIS COMPROBANTES':
-            Arreglar_MC(Archivo , Archivo_Salida , Tolerancia)
-        else:
-            Arreglar_PIVA(Archivo , Archivo_Salida , Tolerancia)
+        try:
+            # Arreglar el archivo
+            if Tipo == 'MIS COMPROBANTES':
+                Arreglar_MC(Archivo , Archivo_Salida , Tolerancia)
+            else:
+                Arreglar_PIVA(Archivo , Archivo_Salida , Tolerancia)
+        except:
+            showerror('Arreglar Comprobantes' , 'No se pudo arreglar el archivo: ' + Archivo)
 
     showinfo('Arreglar Comprobantes' , 'Los archivos se han arreglado correctamente')
 
