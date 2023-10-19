@@ -1,0 +1,97 @@
+{
+ "version": "auto-py-to-exe-configuration_v1",
+ "pyinstallerOptions": [
+  {
+   "optionDest": "noconfirm",
+   "value": true
+  },
+  {
+   "optionDest": "filenames",
+   "value": "F:/Proyectos Python/Scripts/Nacional-Fixer-Comprobantes/Nacional-Fixer.py"
+  },
+  {
+   "optionDest": "onefile",
+   "value": false
+  },
+  {
+   "optionDest": "console",
+   "value": false
+  },
+  {
+   "optionDest": "icon_file",
+   "value": "F:/Proyectos Python/Scripts/Nacional-Fixer-Comprobantes/BIN/ABP-blanco-en-fondo-negro.ico"
+  },
+  {
+   "optionDest": "ascii",
+   "value": false
+  },
+  {
+   "optionDest": "clean_build",
+   "value": false
+  },
+  {
+   "optionDest": "strip",
+   "value": false
+  },
+  {
+   "optionDest": "noupx",
+   "value": false
+  },
+  {
+   "optionDest": "disable_windowed_traceback",
+   "value": false
+  },
+  {
+   "optionDest": "embed_manifest",
+   "value": true
+  },
+  {
+   "optionDest": "uac_admin",
+   "value": false
+  },
+  {
+   "optionDest": "uac_uiaccess",
+   "value": false
+  },
+  {
+   "optionDest": "win_private_assemblies",
+   "value": false
+  },
+  {
+   "optionDest": "win_no_prefer_redirects",
+   "value": false
+  },
+  {
+   "optionDest": "bootloader_ignore_signals",
+   "value": false
+  },
+  {
+   "optionDest": "argv_emulation",
+   "value": false
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Proyectos Python/Scripts/Nacional-Fixer-Comprobantes/BIN/ABP blanco sin fondo.png;BIN/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Proyectos Python/Scripts/Nacional-Fixer-Comprobantes/BIN/ABP-blanco-en-fondo-negro.ico;BIN/"
+  },
+  {
+   "optionDest": "datas",
+   "value": "F:/Proyectos Python/Scripts/Nacional-Fixer-Comprobantes/Lista de Archivos.xlsx;."
+  },
+  {
+   "optionDest": "pathex",
+   "value": "F:/Proyectos Python/Scripts/Nacional-Fixer-Comprobantes/BIN"
+  },
+  {
+   "optionDest": "pathex",
+   "value": "F:/ENV/.pandas/Lib/site-packages"
+  }
+ ],
+ "nonPyinstallerOptions": {
+  "increaseRecursionLimit": true,
+  "manualArguments": ""
+ }
+}
